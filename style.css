@@ -67,8 +67,19 @@ body::after{
     color: #fff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     border-right: rgba(255, 255, 255, 0.5);
+}
 
-
-
-
+.container .calculadora span{
+    display: grid;
+    place-items: center;
+    width: 75px;
+    height: 75px;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+    border-bottom:  1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5)
+    transition: 0.5s;
 }
