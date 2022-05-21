@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: "gremio-wallpaper-computador18-1.png";
+    background-image: "gremio-wallpaper-computador18-1.png";
 }
 
 body::before{
